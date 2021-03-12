@@ -1,0 +1,165 @@
+*
+{
+    font-family: 'Times New Roman', serif;
+}
+body
+{
+    background-color:#343739 ;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.title-box
+{
+    display: flex;
+    flex-direction: reverse-column;
+    align-items: center;
+    z-index: 999;
+    margin: 3%;
+    border : 3px solid #242729;
+    background-color: #242729;
+    position : sticky;
+}
+
+.logo5
+{
+    display : flex;
+    padding-right: 27%;
+    padding-left:5%;
+}
+
+h1
+{
+    font-size: 5em;
+    color: #f287af;
+}
+
+p
+{
+    color : white;
+    font-size: 1.1em;
+    margin-left : 10%;
+    margin-right: 10%; 
+}
+
+nav.menu ul
+{
+    flex-direction: row;
+    justify-content:flex-start;
+    border: 10px solid #242729
+}
+
+nav.menu ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    width: max-content;
+    color: white;
+    font-size: 1.3em;
+    margin: auto;
+    margin-top: 0%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    position: sticky;
+}
+
+nav.menu ul li :hover
+{
+    font-size : 1.1em;
+    color: #f287af;
+    border-bottom: 3px solid #f287af;
+}
+nav.menu ul li a
+{
+    color : white;
+    text-decoration : none;
+    font-size : 1.3 em;
+}
+
+footer a:hover
+{
+    font-size : 1.1em;
+    color: #f287af;
+    border-bottom: 3px solid #f287af;
+}
+
+footer
+{
+    display: flex;
+    flex-direction:reverse-column;
+    border : 3px solid #242729;
+    background-color: #242729;
+    position : sticky;
+    font-size: 1.3em;
+    color: white;
+    padding : 2%;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    padding-left: 4%;
+}
+
+.Reseaux
+{
+    min-width: 20%;
+    padding-right: 25%;
+}
+
+footer ul, a
+{
+    color : white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logoface
+{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+.logoinsta
+{
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+.texteface
+{
+    padding-top: 5%;
+}
+
+.texteinsta
+{
+    padding-top: 5%;
+}
+
+.savon
+{
+    max-width: 20%;
+    position: relative;
+    display: inline-block;
+}
+
+.Singe
+{
+    display: none;
+    position: absolute;
+    max-width: 0%;
+}
+
+.troll:hover .Singe
+{
+    display: inline;
+    transition-delay: 5s;
+    transition-property: all;
+    transform: translate3d(-15%,-15%,0);
+    /* transform: translateY(-15%); */
+    flex-direction: column-reverse;
+    overflow:visible;
+    overflow-x: visible;
+    max-width: 100%;
+}
