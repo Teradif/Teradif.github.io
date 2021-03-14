@@ -87,6 +87,8 @@ nav.menu ul li a
     flex-direction: row;
 }
 
+
+
 .LeKing
 {
     margin-top: 5%;
@@ -100,12 +102,50 @@ nav.menu ul li a
     color: white;
     padding-right: 5%;
 }
+
+.locaMC{
+    font-size: 0.95em;
+}
+
 .TexteMC
 {
     color: white;
     margin-right: 3%;
     padding-left: 2%;
 }
+
+.legendeMC{
+    justify-content: center;
+}
+
+.legendekk{
+    justify-content: center;
+}
+
+.comMC1{
+    display: flex;
+    justify-content: center;
+}
+
+.conMC1img{
+    border : 5px solid #000;
+}
+
+
+.comMC2{ 
+    display: none; 
+} 
+
+/* .comMC1img:hover .conMC2img{  
+    display: inline; 
+    transition-delay: 5s; 
+    transition-property: all; 
+    transform: translate3d(-15%,-15%,0);
+    flex-direction: column-reverse; 
+    overflow:visible; 
+    overflow-x: visible; 
+    max-width: 100%;  
+}  */
 
 .LaSanté{
     width: 100%;
