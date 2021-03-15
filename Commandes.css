@@ -8,10 +8,7 @@ body
     margin: 0 auto;
     line-height: 20px;
 }
-.menu .Liste
-{
-    display: none;
-}
+
 h1
 {
     font-size: 5em;
@@ -52,7 +49,6 @@ nav.menu ul
     justify-content:flex-start;
     border: 10px solid #242729;
     width: 100%;
-    text-align: center;
 }
 
 nav.menu ul li
@@ -90,13 +86,6 @@ nav.menu ul li a
     margin-bottom: 3%;
 }
 
-.Nous_{
-    display: flex;
-    color: #f287af;
-    padding-left: 0%;
-    /* justify-content:center; */
-    font-size: 1.8em;
-}
 
 footer a:hover
 {

@@ -7,11 +7,9 @@ body
     background-color:#343739 ;
     margin: 0 auto;
     line-height: 20px;
+    overflow: auto;
 }
-.menu .Liste
-{
-    display: none;
-}
+
 .title-box
 {
     display: flex;
@@ -43,15 +41,13 @@ p
     margin-left : 10%;
     margin-right: 10%;
     overflow: auto;
-    text-align: center;
 }
 
 nav.menu ul
 {
     flex-direction: row;
     justify-content:flex-start;
-    border: 10px solid #242729;
-    text-align: center;
+    border: 10px solid #242729
 }
 
 nav.menu ul li
@@ -98,7 +94,7 @@ footer
     font-size: 1.3em;
     color: white;
     padding : 2%;
-    position:absolute;
+    position:relative;
     bottom:0;
     width: 100%;
     padding-left: 4%;
@@ -146,3 +142,9 @@ footer ul, a
     position: relative;
     display: inline-block;
 }
+
+.video_campagne{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+} 

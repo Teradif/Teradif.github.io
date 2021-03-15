@@ -11,11 +11,6 @@ body
     overflow: auto;
 }
 
-.menu .Liste
-{
-    display: none;
-}
-
 h1
 {
     font-size: 5em;
@@ -44,17 +39,15 @@ h1
 p
 {
     color : white;
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 150%;
-    text-align: center;
 }
 
 nav.menu ul
 {
     flex-direction: row;
     justify-content:flex-start;
-    border: 10px solid #242729;
-    text-align: center;
+    border: 10px solid #242729
 }
 
 nav.menu ul li
@@ -94,17 +87,7 @@ nav.menu ul li a
     flex-direction: row;
 }
 
-.LaMieCaline li
-{
-    list-style-type: none;
-}
-.LaMieCaline a{
-    color: #f287af;
-    background-color : #242729;
-    border : 3px solid #242729;
-    padding: 1%;
-    margin-top: 1%;
-}
+
 
 .LeKing
 {
@@ -113,18 +96,6 @@ nav.menu ul li a
     margin-left: 10%;
     display: flex;
     flex-direction: row;
-}
-.LeKing li
-{
-    list-style-type: none;
-    margin-left: 15%;
-}
-.LeKing a{
-    color: #f287af;
-    background-color : #242729;
-    border : 3px solid #242729;
-    padding: 1%;
-    margin-top: 1%;
 }
 .TexteKK
 {
@@ -266,3 +237,23 @@ footer ul, a
     display: inline-block;
 }
 
+
+.Singe
+{
+    display: none;
+    position: absolute;
+    max-width: 0%;
+}
+
+.troll:hover .Singe
+{
+    display: inline;
+    transition-delay: 5s;
+    transition-property: all;
+    transform: translate3d(-15%,-15%,0);
+    /* transform: translateY(-15%); */
+    flex-direction: column-reverse;
+    overflow:visible;
+    overflow-x: visible;
+    max-width: 100%;
+}

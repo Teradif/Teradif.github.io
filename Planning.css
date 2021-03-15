@@ -9,11 +9,6 @@ body
     line-height: 20px;
 }
 
-.menu .Liste
-{
-    display: none;
-}
-
 h1
 {
     font-size: 5em;
@@ -51,8 +46,7 @@ nav.menu ul
 {
     flex-direction: row;
     justify-content:flex-start;
-    border: 10px solid #242729;
-    text-align: center;
+    border: 10px solid #242729
 }
 
 nav.menu ul li
