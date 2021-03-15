@@ -15,6 +15,10 @@ h1
 {
     font-size: 5em;
     color: #f287af;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 15px;
 }
 
 .title-box
@@ -31,7 +35,7 @@ h1
 
 .logo5
 {
-    display : flex;
+    display : none;
     padding-right: 22%;
     padding-left:5%;
 }
@@ -136,17 +140,6 @@ nav.menu ul li a
     display: none; 
 } 
 
-/* .comMC1img:hover .conMC2img{  
-    display: inline; 
-    transition-delay: 5s; 
-    transition-property: all; 
-    transform: translate3d(-15%,-15%,0);
-    flex-direction: column-reverse; 
-    overflow:visible; 
-    overflow-x: visible; 
-    max-width: 100%;  
-}  */
-
 .LaSanté{
     width: 100%;
     margin: 3%;
@@ -245,15 +238,236 @@ footer ul, a
     max-width: 0%;
 }
 
-.troll:hover .Singe
+@media all and (orientation: portrait) and (max-width: 1280px)
 {
-    display: inline;
-    transition-delay: 5s;
-    transition-property: all;
-    transform: translate3d(-15%,-15%,0);
-    /* transform: translateY(-15%); */
-    flex-direction: column-reverse;
-    overflow:visible;
-    overflow-x: visible;
-    max-width: 100%;
+    *
+{
+    font-family: 'Times New Roman', serif;
+}
+body
+{
+    background-color:#343739 ;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+h1
+{
+    font-size: 5em;
+    color: #f287af;
+}
+
+.title-box
+{
+    display: flex;
+    flex-direction: reverse-column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+    margin: 3%;
+    border : 3px solid #242729;
+    background-color: #242729;
+    position : sticky;
+
+}
+
+.logo5
+{
+    display : none;
+    padding-right: 22%;
+    padding-left:5%;
+}
+
+p
+{
+    color : white;
+    font-size: 1.1em;
+    margin-left : 10%;
+    margin-right: 10%; 
+}
+
+nav.menu ul
+{
+    flex-direction: column;
+    justify-content:flex-start;
+    border: 10px solid #242729;
+    width: 50%;
+}
+
+nav.menu ul li
+{
+    list-style-type: none;
+    display: block;
+    width: max-content;
+    color: white;
+    font-size: 1.3em;
+    margin: auto;
+    margin-top: 0%;
+    padding-left: 3%;
+    padding-right: 20%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    position: sticky;
+    text-align: center;
+}
+
+nav.menu ul li :hover
+{
+    font-size : 1.1em;
+    color: #f287af;
+    border-bottom: 3px solid #f287af;
+}
+nav.menu ul li a
+{
+    color : white;
+    text-decoration : none;
+    font-size : 1.3 em;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.LaMieCaline
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.LeKing
+{
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.TexteKK
+{
+    color: white;
+    padding-right: 5%;
+}
+
+.locaMC{
+    font-size: 0.95em;
+}
+
+.TexteMC
+{
+    color: white;
+    margin-right: 3%;
+    padding-left: 2%;
+}
+
+.legendeMC{
+    justify-content: center;
+}
+
+.legendekk{
+    justify-content: center;
+}
+
+.comMC1{
+    display: flex;
+    justify-content: center;
+}
+
+.conMC1img{
+    border : 5px solid #000;
+}
+
+
+.comMC2{ 
+    display: none; 
+} 
+
+.LaSanté{
+    width: 100%;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.MB{
+    font-family: Freestyle Script;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    color: #f287af;
+    line-height: 100%;
+}
+
+.PNNS{
+    font-family: Freestyle Script;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    color: #f287af;
+}
+
+footer
+{
+    display: flex;
+    flex-direction:reverse-column;
+    border : 3px solid #242729;
+    background-color: #242729;
+    /* position : sticky; */
+    font-size: 1.3em;
+    color: white;
+    padding : 2%;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    padding-left: 4%;
+}
+
+.Reseaux
+{
+    min-width: 20%;
+    padding-right: 25%;
+}
+
+footer ul, a
+{
+    color : white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logoface
+{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+.logoinsta
+{
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+.texteface
+{
+    padding-top: 5%;
+}
+
+.texteinsta
+{
+    padding-top: 5%;
+}
+
+.savon
+{
+    max-width: 20%;
+    position: relative;
+    display: inline-block;
+}
 }
