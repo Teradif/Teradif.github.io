@@ -45,6 +45,10 @@ body
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: #f287af;
+    background-color: #343739;
+    border: 3px solid #949799;
+    text-decoration: none;
     width: 100%;
     margin-bottom: 3%;
 }
