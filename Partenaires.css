@@ -1,0 +1,262 @@
+*
+{
+    font-family: 'Times New Roman', 'serif','freestylescritp';
+    @import url(https://www.fonts.com/font/itc/freestyle-script?QueryFontType=Web&src=GoogleWebFonts)
+}
+body
+{
+    background-color:#343739 ;
+    margin: 0 auto;
+    line-height: 20px;
+    overflow: auto;
+}
+
+h1
+{
+    font-size: 5em;
+    color: #f287af;
+}
+
+.title-box
+{
+    display: flex;
+    flex-direction: reverse-column;
+    align-items: center;
+    z-index: 999;
+    margin: 3%;
+    border : 3px solid #242729;
+    background-color: #242729;
+    position : sticky;
+}
+
+.logo5
+{
+    display : flex;
+    padding-right: 22%;
+    padding-left:5%;
+}
+
+p
+{
+    color : white;
+    font-size: 1.3em;
+    line-height: 150%;
+    text-align: center;
+}
+
+nav.menu ul
+{
+    flex-direction: row;
+    justify-content:flex-start;
+    border: 10px solid #242729
+}
+
+nav.menu ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    width: max-content;
+    color: white;
+    font-size: 1.3em;
+    margin: auto;
+    margin-top: 0%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    position: sticky;
+}
+
+nav.menu ul li :hover
+{
+    font-size : 1.1em;
+    color: #f287af;
+    border-bottom: 3px solid #f287af;
+}
+nav.menu ul li a
+{
+    color : white;
+    text-decoration : none;
+    font-size : 1.3 em;
+}
+
+.LaMieCaline
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.LaMieCaline li
+{
+    list-style-type: none;
+}
+.LaMieCaline a{
+    color: #f287af;
+    background-color : #242729;
+    border : 3px solid #242729;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.LeKing
+{
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.LeKing li
+{
+    list-style-type: none;
+    margin-left: 15%;
+}
+.LeKing a{
+    color: #f287af;
+    background-color : #242729;
+    border : 3px solid #242729;
+    padding: 1%;
+    margin-top: 1%;
+}
+.TexteKK
+{
+    color: white;
+    padding-right: 5%;
+}
+
+.locaMC{
+    font-size: 0.95em;
+}
+
+.TexteMC
+{
+    color: white;
+    margin-right: 3%;
+    padding-left: 2%;
+}
+
+.legendeMC{
+    justify-content: center;
+}
+
+.legendekk{
+    justify-content: center;
+}
+
+.comMC1{
+    display: flex;
+    justify-content: center;
+}
+
+.conMC1img{
+    border : 5px solid #000;
+}
+
+
+.comMC2{ 
+    display: none; 
+} 
+
+/* .comMC1img:hover .conMC2img{  
+    display: inline; 
+    transition-delay: 5s; 
+    transition-property: all; 
+    transform: translate3d(-15%,-15%,0);
+    flex-direction: column-reverse; 
+    overflow:visible; 
+    overflow-x: visible; 
+    max-width: 100%;  
+}  */
+
+.LaSanté{
+    width: 100%;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.MB{
+    font-family: Freestyle Script;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    color: #f287af;
+    line-height: 100%;
+}
+
+.PNNS{
+    font-family: Freestyle Script;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    color: #f287af;
+}
+
+footer a:hover
+{
+    font-size : 1.1em;
+    color: #f287af;
+    border-bottom: 3px solid #f287af;
+}
+
+footer
+{
+    display: flex;
+    flex-direction:reverse-column;
+    border : 3px solid #242729;
+    background-color: #242729;
+    position : sticky;
+    font-size: 1.3em;
+    color: white;
+    padding : 2%;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    padding-left: 4%;
+}
+
+.Reseaux
+{
+    min-width: 20%;
+    padding-right: 25%;
+}
+
+footer ul, a
+{
+    color : white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logoface
+{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+.logoinsta
+{
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+.texteface
+{
+    padding-top: 5%;
+}
+
+.texteinsta
+{
+    padding-top: 5%;
+}
+
+.savon
+{
+    max-width: 20%;
+    position: relative;
+    display: inline-block;
+}
+
