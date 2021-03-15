@@ -7,4 +7,62 @@ body
     background-color:#343739 ;
     margin: 0 auto;
     line-height: 20px;
+    background-image:url(images/thugo.png) ;
+}
+
+.banana{
+    display: flex;
+    justify-content: right;
+    margin: 3%;
+}
+
+.banane{
+    display: flex;
+    justify-content: left;
+    margin: 3%;
+}
+
+.sopademacaco{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.primatse{
+    margin:3%;
+    padding-left: 13%;
+}
+
+.gene{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width: 100;
+    justify-content: center;
+}
+
+.loca{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.mapgenes{
+    display: flex;
+    font-size: 2em;
+    color: #000;
+    /* border : 3px solid #242729; */
+    list-style-type: none;
+    justify-content: center;
+}
+
+.livegenes{
+    display: flex;
+    font-size: 2em;
+    color: #000;
+    /* border : 3px solid #242729; */
+    list-style-type: none;
+    justify-content: center;
 }

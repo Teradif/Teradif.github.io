@@ -86,6 +86,10 @@ nav.menu ul li a
     margin-bottom: 3%;
 }
 
+.lientroll{
+    opacity: 0%;
+}
+
 
 footer a:hover
 {
