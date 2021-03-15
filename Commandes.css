@@ -8,7 +8,10 @@ body
     margin: 0 auto;
     line-height: 20px;
 }
-
+.menu .Liste
+{
+    display: none;
+}
 h1
 {
     font-size: 5em;
@@ -49,6 +52,7 @@ nav.menu ul
     justify-content:flex-start;
     border: 10px solid #242729;
     width: 100%;
+    text-align: center;
 }
 
 nav.menu ul li
