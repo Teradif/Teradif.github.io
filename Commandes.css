@@ -79,7 +79,10 @@ nav.menu ul li a
     text-decoration : none;
     font-size : 1.3 em;
 }
-
+.Liste
+{
+    display: none;
+}
 .menu{
     display: flex;
     justify-content: center;
@@ -215,7 +218,10 @@ nav.menu ul
     border: 10px solid #242729;
     width: 50%;
 }
-
+.Liste
+{
+    display: none;
+}
 nav.menu ul li
 {
     list-style-type: none;
