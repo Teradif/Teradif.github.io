@@ -35,7 +35,7 @@ h1
 
 .logo5
 {
-    display : none;
+    display : flex;
     padding-right: 22%;
     padding-left:5%;
 }
